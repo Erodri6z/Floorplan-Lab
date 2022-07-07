@@ -12,15 +12,13 @@ function App() {
       <BedRoom bedRoomNum={1} />
       <div>
         <Kitchen />
-        <div>
         <Oven />
         <Sink />
-        </div>
       </div>
-      <Bath />
+      <Bath size={'Half '}/>
       <BedRoom bedRoomNum={2}/>
       <LivingRoom />
-      <Bath />
+      <Bath size={'Full '} />
       <BedRoom bedRoomNum={3} />
       
     </div>
